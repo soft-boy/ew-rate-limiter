@@ -8,6 +8,7 @@
  */
 function rateLimiter(options = {}) {
   return function rateLimiterMiddleware(req, res, next) {
+    console.log(`[ew-rate-limiter] ${req.method} ${req.originalUrl}`);
     next();
   };
 }
