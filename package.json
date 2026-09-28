@@ -23,6 +23,15 @@
     "rate-limit",
     "rate-limiter"
   ],
+  "author": "Eric Wang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soft-boy/ew-rate-limiter.git"
+  },
+  "homepage": "https://github.com/soft-boy/ew-rate-limiter#readme",
+  "bugs": {
+    "url": "https://github.com/soft-boy/ew-rate-limiter/issues"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=18"
